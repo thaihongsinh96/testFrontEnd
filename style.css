@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar-left {
+    background-color:black;
+    height: 100vh;
+    width: 120px;
+    float: left;
+}
+
+.child{
+    width: 100%;
+    height: 35px;
+    padding-left: 5px;
+    padding-top: 7px;
+    color: white;
+}
+
+.sidebar-left a .child:hover{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(128, 128, 128);
+    padding-left: 5px;
+    padding-top: 7px;
+    color: white;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+}
+
+.content div{
+    text-align: center;
+}
+.lorem_content{
+    display: flex;
+    justify-content: center;
+}
+.lorem{
+    width: 80%;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(194, 194, 194);
+
+}
+.lorem1{
+    width: 70%;
+    height: 100px;
+}
+.lorem_content1{
+    border-bottom: solid 0.5px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lorem_content2{
+    display: flex;
+    width: 80%;
+    height: 250px;
+    
+}
+.lorem_content2 h3{
+    margin: 5% 0;
+    float: left;
+}
+.left{
+    width: 33%;
+    height: 100%;
+    padding-right: 2%;
+}
+.center{
+    width: 34%;
+    height: 100%;
+}
+.right{
+    width: 33%;
+    height: 100%;
+}
+.left_content{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.img{
+    width: 25%;
+    height: 100px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 75%;
+    height: 100px;
+}
+.text p{
+    text-align: left;
+}
+.text2 {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: -22%;
+}
+.text2 p{
+    text-align: left;
+}
